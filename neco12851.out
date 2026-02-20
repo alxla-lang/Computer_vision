@@ -1,0 +1,11 @@
+Lancement de l'entraînement sur le cluster...
+--- Évaluation NECO ---
+Extraction des features du TRAIN
+Extraction des features ID
+Extraction des features OOD
+Score NECO moyen ID  : 0.7475 (Doit être proche de 1)
+Score NECO moyen OOD : 0.5670 (Doit être plus faible)
+
+RÉSULTAT FINAL
+NECO AUROC : 0.8107
+Job terminé avec succès.

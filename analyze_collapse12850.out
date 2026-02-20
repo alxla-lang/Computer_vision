@@ -1,0 +1,58 @@
+Lancement de l'entraînement sur le cluster...
+////// NC1 //////
+Variance inter-classe (moyenne sur les dimensions) : 
+sigma = 0.26053863763809204
+Variance par intra-classe (moyenne sur les dimensions) : 
+classe 0 : sigma = 0.0842682421207428
+classe 1 : sigma = 0.08766837418079376
+classe 2 : sigma = 0.08320269733667374
+classe 3 : sigma = 0.07674024999141693
+classe 4 : sigma = 0.07442830502986908
+classe 5 : sigma = 0.08227416127920151
+classe 6 : sigma = 0.0751429945230484
+classe 7 : sigma = 0.0816154032945633
+classe 8 : sigma = 0.08111689239740372
+classe 9 : sigma = 0.0848793089389801
+////// NC2 //////
+Distance des centres de classe à l'origine : 
+classe 0 : Norme = 9.056666374206543
+classe 1 : Norme = 10.882976531982422
+classe 2 : Norme = 8.378665924072266
+classe 3 : Norme = 8.229523658752441
+classe 4 : Norme = 8.076948165893555
+classe 5 : Norme = 10.059183120727539
+classe 6 : Norme = 9.792057037353516
+classe 7 : Norme = 9.913436889648438
+classe 8 : Norme = 10.64495849609375
+classe 9 : Norme = 10.30875301361084
+Angle entre les paires de centre (valeur attendue : -1/(C-1) = -0.11)
+['1.00', '0.11', '0.13', '-0.48', '-0.16', '-0.55', '-0.29', '-0.09', '0.31', '-0.02']
+['0.11', '1.00', '-0.35', '-0.34', '-0.48', '-0.39', '-0.15', '-0.25', '0.12', '0.43']
+['0.13', '-0.35', '1.00', '0.14', '0.13', '-0.02', '0.22', '-0.08', '-0.31', '-0.56']
+['-0.48', '-0.34', '0.14', '1.00', '-0.02', '0.46', '0.26', '-0.25', '-0.22', '-0.35']
+['-0.16', '-0.48', '0.13', '-0.02', '1.00', '-0.05', '0.19', '0.31', '-0.19', '-0.47']
+['-0.55', '-0.39', '-0.02', '0.46', '-0.05', '1.00', '-0.16', '0.30', '-0.37', '-0.15']
+['-0.29', '-0.15', '0.22', '0.26', '0.19', '-0.16', '1.00', '-0.48', '-0.16', '-0.30']
+['-0.09', '-0.25', '-0.08', '-0.25', '0.31', '0.30', '-0.48', '1.00', '-0.44', '0.02']
+['0.31', '0.12', '-0.31', '-0.22', '-0.19', '-0.37', '-0.16', '-0.44', '1.00', '0.07']
+['-0.02', '0.43', '-0.56', '-0.35', '-0.47', '-0.15', '-0.30', '0.02', '0.07', '1.00']
+////// NC3 //////
+Alignement Poids vs Moyenne (doit tendre vers 1) : 
+Classe 0 : cos = 0.86
+Classe 1 : cos = 0.88
+Classe 2 : cos = 0.88
+Classe 3 : cos = 0.87
+Classe 4 : cos = 0.84
+Classe 5 : cos = 0.90
+Classe 6 : cos = 0.88
+Classe 7 : cos = 0.92
+Classe 8 : cos = 0.86
+Classe 9 : cos = 0.88
+////// NC4 //////
+Accuracy du modèle : 100.00
+Accuracy pour la distance euclidienne : 100.00
+Taux d'accord : 100.00
+////// NC5 //////
+Alignement moyen ID (centré)  : 0.8351
+Alignement moyen OOD (centré) : 0.5931
+Job terminé avec succès.
